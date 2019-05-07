@@ -1,0 +1,314 @@
+Expected {
+  "1" : "{\n  \"userId\" : 1,\n  \"mostVisistedMerchants\" : \"Bartell Drugs, Flying Pie Pizza, Albertsons, \"\n}",
+  "65" : "{\n  \"userId\" : 65,\n  \"mostVisistedMerchants\" : \"Error - Too few transactions\"\n}",
+  "2" : "{\n  \"userId\" : 2,\n  \"mostVisistedMerchants\" : \"Error - Too few transactions\"\n}",
+  "3" : "{\n  \"userId\" : 3,\n  \"mostVisistedMerchants\" : \"McDonalds, Bartell Drugs, Safeway, \"\n}",
+  "100" : "{\n  \"userId\" : 100,\n  \"mostVisistedMerchants\" : \"Error - Too few transactions\"\n}",
+  "4" : "{\n  \"userId\" : 4,\n  \"mostVisistedMerchants\" : \"Bartell Drugs, Flying Pie Pizza, Arbys, \"\n}",
+  "5" : "{\n  \"userId\" : 5,\n  \"mostVisistedMerchants\" : \"Bartell Drugs, Matt's in the Market, Flying Pie Pizza, \"\n}",
+  "101" : "{\n  \"userId\" : 101,\n  \"mostVisistedMerchants\" : \"Error - Too few transactions\"\n}",
+  "6" : "{\n  \"userId\" : 6,\n  \"mostVisistedMerchants\" : \"Error - Too few transactions\"\n}",
+  "7" : "{\n  \"userId\" : 7,\n  \"mostVisistedMerchants\" : \"Error - Too few transactions\"\n}",
+  "8" : "{\n  \"userId\" : 8,\n  \"mostVisistedMerchants\" : \"Error - Too few transactions\"\n}",
+  "9" : "{\n  \"userId\" : 9,\n  \"mostVisistedMerchants\" : \"Bartell Drugs, Safeway, McDonalds, \"\n}",
+  "10" : "{\n  \"userId\" : 10,\n  \"mostVisistedMerchants\" : \"Error - Too few transactions\"\n}",
+  "76" : "{\n  \"userId\" : 76,\n  \"mostVisistedMerchants\" : \"Error - Too few transactions\"\n}",
+  "15" : "{\n  \"userId\" : 15,\n  \"mostVisistedMerchants\" : \"Error - Too few transactions\"\n}"
+}
+All data {
+  "1" : {
+    "merchantMap" : {
+      "Bartell Drugs" : {
+        "name" : "Bartell Drugs",
+        "visitedCount" : 4
+      },
+      "Flying Pie Pizza" : {
+        "name" : "Flying Pie Pizza",
+        "visitedCount" : 2
+      },
+      "Safeway" : {
+        "name" : "Safeway",
+        "visitedCount" : 1
+      },
+      "Acme Inc" : {
+        "name" : "Acme Inc",
+        "visitedCount" : 1
+      },
+      "Albertsons" : {
+        "name" : "Albertsons",
+        "visitedCount" : 2
+      }
+    },
+    "merchantMaxHeap" : [ {
+      "name" : "Bartell Drugs",
+      "visitedCount" : 4
+    }, {
+      "name" : "Flying Pie Pizza",
+      "visitedCount" : 2
+    }, {
+      "name" : "Albertsons",
+      "visitedCount" : 2
+    } ]
+  },
+  "65" : {
+    "merchantMap" : {
+      "Bartell Drugs" : {
+        "name" : "Bartell Drugs",
+        "visitedCount" : 1
+      }
+    },
+    "merchantMaxHeap" : [ {
+      "name" : "Bartell Drugs",
+      "visitedCount" : 1
+    } ]
+  },
+  "2" : {
+    "merchantMap" : {
+      "Bartell Drugs" : {
+        "name" : "Bartell Drugs",
+        "visitedCount" : 4
+      },
+      "Safeway" : {
+        "name" : "Safeway",
+        "visitedCount" : 1
+      }
+    },
+    "merchantMaxHeap" : [ {
+      "name" : "Bartell Drugs",
+      "visitedCount" : 4
+    }, {
+      "name" : "Safeway",
+      "visitedCount" : 1
+    } ]
+  },
+  "3" : {
+    "merchantMap" : {
+      "McDonalds" : {
+        "name" : "McDonalds",
+        "visitedCount" : 1
+      },
+      "Bartell Drugs" : {
+        "name" : "Bartell Drugs",
+        "visitedCount" : 1
+      },
+      "Safeway" : {
+        "name" : "Safeway",
+        "visitedCount" : 1
+      }
+    },
+    "merchantMaxHeap" : [ {
+      "name" : "McDonalds",
+      "visitedCount" : 1
+    }, {
+      "name" : "Bartell Drugs",
+      "visitedCount" : 1
+    }, {
+      "name" : "Safeway",
+      "visitedCount" : 1
+    } ]
+  },
+  "100" : {
+    "merchantMap" : {
+      "Lola" : {
+        "name" : "Lola",
+        "visitedCount" : 1
+      }
+    },
+    "merchantMaxHeap" : [ {
+      "name" : "Lola",
+      "visitedCount" : 1
+    } ]
+  },
+  "4" : {
+    "merchantMap" : {
+      "Arbys" : {
+        "name" : "Arbys",
+        "visitedCount" : 1
+      },
+      "Bartell Drugs" : {
+        "name" : "Bartell Drugs",
+        "visitedCount" : 1
+      },
+      "Flying Pie Pizza" : {
+        "name" : "Flying Pie Pizza",
+        "visitedCount" : 1
+      },
+      "Safeway" : {
+        "name" : "Safeway",
+        "visitedCount" : 1
+      },
+      "Lola" : {
+        "name" : "Lola",
+        "visitedCount" : 1
+      }
+    },
+    "merchantMaxHeap" : [ {
+      "name" : "Bartell Drugs",
+      "visitedCount" : 1
+    }, {
+      "name" : "Flying Pie Pizza",
+      "visitedCount" : 1
+    }, {
+      "name" : "Arbys",
+      "visitedCount" : 1
+    } ]
+  },
+  "5" : {
+    "merchantMap" : {
+      "McDonalds" : {
+        "name" : "McDonalds",
+        "visitedCount" : 1
+      },
+      "Bartell Drugs" : {
+        "name" : "Bartell Drugs",
+        "visitedCount" : 3
+      },
+      "Flying Pie Pizza" : {
+        "name" : "Flying Pie Pizza",
+        "visitedCount" : 1
+      },
+      "Matt's in the Market" : {
+        "name" : "Matt's in the Market",
+        "visitedCount" : 1
+      }
+    },
+    "merchantMaxHeap" : [ {
+      "name" : "Bartell Drugs",
+      "visitedCount" : 3
+    }, {
+      "name" : "Matt's in the Market",
+      "visitedCount" : 1
+    }, {
+      "name" : "Flying Pie Pizza",
+      "visitedCount" : 1
+    } ]
+  },
+  "101" : {
+    "merchantMap" : {
+      "Lola" : {
+        "name" : "Lola",
+        "visitedCount" : 1
+      }
+    },
+    "merchantMaxHeap" : [ {
+      "name" : "Lola",
+      "visitedCount" : 1
+    } ]
+  },
+  "6" : {
+    "merchantMap" : {
+      "Bartell Drugs" : {
+        "name" : "Bartell Drugs",
+        "visitedCount" : 3
+      }
+    },
+    "merchantMaxHeap" : [ {
+      "name" : "Bartell Drugs",
+      "visitedCount" : 3
+    } ]
+  },
+  "7" : {
+    "merchantMap" : {
+      "Matt's in the Market" : {
+        "name" : "Matt's in the Market",
+        "visitedCount" : 1
+      },
+      "Safeway" : {
+        "name" : "Safeway",
+        "visitedCount" : 1
+      }
+    },
+    "merchantMaxHeap" : [ {
+      "name" : "Safeway",
+      "visitedCount" : 1
+    }, {
+      "name" : "Matt's in the Market",
+      "visitedCount" : 1
+    } ]
+  },
+  "8" : {
+    "merchantMap" : {
+      "Safeway" : {
+        "name" : "Safeway",
+        "visitedCount" : 1
+      }
+    },
+    "merchantMaxHeap" : [ {
+      "name" : "Safeway",
+      "visitedCount" : 1
+    } ]
+  },
+  "9" : {
+    "merchantMap" : {
+      "McDonalds" : {
+        "name" : "McDonalds",
+        "visitedCount" : 2
+      },
+      "Bartell Drugs" : {
+        "name" : "Bartell Drugs",
+        "visitedCount" : 3
+      },
+      "Safeway" : {
+        "name" : "Safeway",
+        "visitedCount" : 1
+      },
+      "Lola" : {
+        "name" : "Lola",
+        "visitedCount" : 1
+      }
+    },
+    "merchantMaxHeap" : [ {
+      "name" : "Bartell Drugs",
+      "visitedCount" : 3
+    }, {
+      "name" : "Safeway",
+      "visitedCount" : 1
+    }, {
+      "name" : "McDonalds",
+      "visitedCount" : 2
+    } ]
+  },
+  "10" : {
+    "merchantMap" : {
+      "Flying Pie Pizza" : {
+        "name" : "Flying Pie Pizza",
+        "visitedCount" : 1
+      },
+      "Safeway" : {
+        "name" : "Safeway",
+        "visitedCount" : 1
+      }
+    },
+    "merchantMaxHeap" : [ {
+      "name" : "Safeway",
+      "visitedCount" : 1
+    }, {
+      "name" : "Flying Pie Pizza",
+      "visitedCount" : 1
+    } ]
+  },
+  "76" : {
+    "merchantMap" : {
+      "McDonalds" : {
+        "name" : "McDonalds",
+        "visitedCount" : 1
+      }
+    },
+    "merchantMaxHeap" : [ {
+      "name" : "McDonalds",
+      "visitedCount" : 1
+    } ]
+  },
+  "15" : {
+    "merchantMap" : {
+      "Bartell Drugs" : {
+        "name" : "Bartell Drugs",
+        "visitedCount" : 1
+      }
+    },
+    "merchantMaxHeap" : [ {
+      "name" : "Bartell Drugs",
+      "visitedCount" : 1
+    } ]
+  }
+}
